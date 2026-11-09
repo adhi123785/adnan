@@ -1,0 +1,267 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spring Valley School | NIT Calicut, Kozhikode, Kerala</title>
+<meta name="description" content="Spring Valley School, NIT Calicut, Kozhikode, Kerala. Academics, facilities, events, gallery and admissions information.">
+<meta property="og:title" content="Spring Valley School, NIT Calicut">
+<meta property="og:description" content="A school in Kozhikode, Kerala nurturing curious, confident learners.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"School","name":"Spring Valley School","address":{"@type":"PostalAddress","addressLocality":"NIT Calicut, Kozhikode","addressRegion":"Kerala","addressCountry":"IN"}}
+</script>
+</head>
+
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<div id="loader" aria-hidden="true">
+<div class="ring"></div>
+<p>Spring Valley School</p>
+</div>
+
+<div id="cur-dot"></div>
+<div id="cur-ring"></div>
+<div id="glow"></div>
+
+<header id="top">
+
+<a href="#home" class="brand">
+<span class="mark">SV</span>
+<span>Spring Valley</span>
+</a>
+
+<button id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+<i></i><i></i>
+</button>
+
+<nav id="menu" aria-label="Main">
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#history">Mission</a>
+<a href="#academics">Academics</a>
+<a href="#staff">Staff</a>
+<a href="#facilities">Facilities</a>
+<a href="#achievements">Achievements</a>
+<a href="#events">Events</a>
+<a href="#gallery">Gallery</a>
+<a href="#videos">Videos</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<main id="main">
+
+<section id="home" class="hero">
+
+<div class="hero-img" data-par="0.25"></div>
+
+<svg class="skyline" data-par="0.12" viewBox="0 0 1440 260" preserveAspectRatio="none" aria-hidden="true">
+<path d="M0 260V190l120-30 90 20 80-60h60v-30h50v30h40l70-50 70 50h60v40l120-20 100 30 110-50h80v-30l90 20 70-40 90 60h120v100z" fill="#0a1633" opacity=".85"/>
+</svg>
+
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<div class="hero-in">
+
+<p class="kicker">Welcome to</p>
+
+<h1>
+<span class="w">Spring</span>
+<span class="w">Valley</span>
+<span class="w">School</span>
+</h1>
+
+<p class="typed">
+<span id="typed"></span><b>|</b>
+</p>
+
+<p class="loc">NIT Calicut, Kozhikode, Kerala, India</p>
+
+<div class="cta">
+<a class="btn gold" data-mag href="#contact">Enquire for Admission</a>
+<a class="btn ghost" data-mag href="#gallery">Explore Campus</a>
+</div>
+
+</div>
+
+<a class="scroll" href="#stats" aria-label="Scroll down">
+<span></span>
+</a>
+
+</section>
+
+<section id="stats" class="stats">
+<div class="wrap" id="statGrid"></div>
+<p class="note">Placeholder values. Edit them in <code>script.js</code> (SCHOOL.stats).</p>
+</section>
+
+<section id="about" class="sec">
+<div class="wrap two">
+
+<div class="rv">
+<h2>About the School</h2>
+<p id="aboutText"></p>
+<a class="btn gold" data-mag href="#history">Our mission</a>
+</div>
+
+<div class="about-art rv" data-par="0.06">
+<div class="frame"></div>
+<img id="aboutImg" alt="Spring Valley School campus" width="600" height="440" loading="lazy">
+</div>
+
+</div>
+</section>
+
+<section id="history" class="sec dark">
+<div class="wrap">
+
+<h2 class="rv">History and Mission</h2>
+<div class="tl" id="timeline"></div>
+<div class="cards three" id="mission"></div>
+
+</div>
+</section>
+
+<section id="academics" class="sec">
+<div class="wrap">
+<h2 class="rv">Academics</h2>
+<div class="cards" id="academicGrid"></div>
+</div>
+</section>
+
+<section id="staff" class="sec dark">
+<div class="wrap">
+<h2 class="rv">Teachers and Staff</h2>
+<div class="cards" id="staffGrid"></div>
+</div>
+</section>
+
+<section id="facilities" class="sec">
+<div class="wrap">
+<h2 class="rv">Facilities</h2>
+<div class="cards" id="facGrid"></div>
+</div>
+</section>
+
+<section id="achievements" class="sec dark">
+<div class="wrap">
+<h2 class="rv">Student Achievements</h2>
+<div class="cards" id="achGrid"></div>
+</div>
+</section>
+
+<section id="events" class="sec">
+<div class="wrap">
+<h2 class="rv">School Events</h2>
+<div class="events" id="eventList"></div>
+</div>
+</section>
+
+<section id="gallery" class="sec dark">
+<div class="wrap">
+
+<h2 class="rv">Photo Gallery</h2>
+
+<div class="filters" id="filters" role="group" aria-label="Filter photos"></div>
+
+<div class="masonry" id="masonry"></div>
+
+</div>
+</section>
+
+<section id="videos" class="sec">
+<div class="wrap">
+<h2 class="rv">Video Gallery</h2>
+<div class="cards" id="videoGrid"></div>
+</div>
+</section>
+
+<section id="contact" class="sec dark">
+<div class="wrap two">
+
+<div class="rv">
+
+<h2>Contact and Location</h2>
+
+<ul class="info" id="contactInfo"></ul>
+
+<form id="form" novalidate>
+
+<label>
+Name
+<input name="name" required autocomplete="name">
+</label>
+
+<label>
+Email
+<input name="email" type="email" required autocomplete="email">
+</label>
+
+<label>
+Message
+<textarea name="msg" rows="4" required></textarea>
+</label>
+
+<button class="btn gold" data-mag type="submit">Send Message</button>
+
+<p id="formMsg" role="status"></p>
+
+</form>
+</div>
+
+<div class="map rv">
+
+<iframe title="Map of NIT Calicut" loading="lazy"
+src="https://www.openstreetmap.org/export/embed.html?bbox=75.925%2C11.315%2C75.943%2C11.328&amp;layer=mapnik&amp;marker=11.3215%2C75.9340">
+</iframe>
+
+<a href="https://www.openstreetmap.org/?mlat=11.3215&amp;mlon=75.934#map=16/11.3215/75.934" target="_blank" rel="noopener">
+Open larger map
+</a>
+
+</div>
+
+</div>
+</section>
+
+</main>
+
+<footer>
+<p>&copy; <span id="yr"></span> Spring Valley School, NIT Calicut, Kozhikode, Kerala.</p>
+<a href="#home">Back to top</a>
+</footer>
+
+<div id="lb" role="dialog" aria-modal="true" aria-label="Image viewer" hidden>
+
+<button class="x" aria-label="Close">&times;</button>
+
+<button class="nav prev" aria-label="Previous">&#8249;</button>
+
+<figure>
+<img alt="">
+<figcaption></figcaption>
+</figure>
+
+<button class="nav next" aria-label="Next">&#8250;</button>
+
+</div>
+
+<div id="vm" role="dialog" aria-modal="true" aria-label="Video player" hidden>
+<button class="x" aria-label="Close">&times;</button>
+<div id="vbox"></div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
